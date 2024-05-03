@@ -109,12 +109,12 @@ function HTMLFileGenerator({ htmlContent }) {
     const encodedContent = encodeURIComponent(htmlContent);
     const dataUri = `data:text/html;charset=UTF-8,${encodedContent}`;
 
-    const link = document.createElement('a');
+    /*const link = document.createElement('a');
     link.href = dataUri;
     link.download = 'generated_AR_scene.html';
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
+    document.body.removeChild(link);*/
 
     return (
         <div>

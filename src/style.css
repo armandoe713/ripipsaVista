@@ -62,10 +62,10 @@ body {
 }
 
 .list-container-heading, .selection-list-container h3 {
-    color: #003366; /* Azul más oscuro */
+    color: #003366;
     margin-left: 20px;
-    font-weight: 600; /* Aumentar el grosor del texto */
-    letter-spacing: 0em; /* Añadir espacio entre letras */
+    font-weight: 600;
+    letter-spacing: 0em;
 }
 
 
@@ -87,8 +87,8 @@ body {
     border-radius: 10px;
     padding: 15px;
     background-color: rgb(241, 243, 248);
-    height: 300px; /* Establecer altura fija */
-    overflow-y: auto; /* Permitir desplazamiento si se supera la altura */
+    height: 300px;
+    overflow-y: auto;
 }
 
 .selection-list-container h3 {
@@ -104,7 +104,7 @@ body {
 
 .selection-list-container .list-item {
     font-size: 1.6em;
-    line-height: 1.6; /* Aumentar el espacio entre líneas */
+    line-height: 1.6;
     margin-bottom: 12px;
     padding: 12px;
     background: #e8f1fc;
@@ -120,24 +120,23 @@ body {
     margin-bottom: 0;
 }
 
-/* Botón AR más grande */
 .arbuilder-button {
-    width: 50%; /* Ajusta el ancho según sea necesario */
-    height: 150px; /* Ajusta la altura según sea necesario */
-    margin: 10px auto 0; /* Centrar el botón */
-    background: linear-gradient(145deg, #497faf, #193d70); /* Añadir un degradado */
-    border: 0px solid #66c0e6; /* Borde más definido */
+    width: 50%;
+    height: 150px;
+    margin: 10px auto 0;
+    background: linear-gradient(145deg, #497faf, #193d70);
+    border: 0px solid #66c0e6;
     color: white;
     cursor: pointer;
     font-size: 2em;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Añadir sombra */
-    border-radius: 8px; /* Esquinas más nítidas */
-    transition: all 0.35s ease; /* Transición suave */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    transition: all 0.35s ease;
 }
 
 .arbuilder-button:hover {
-    transform: translateY(-3px); /* Efecto de flotación */
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4); /* Aumentar la sombra al pasar el cursor */
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 #go-ar-button {
@@ -150,11 +149,11 @@ body {
     cursor: pointer;
     font-size: 2em;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
-    border-radius: 8px; /* Esquinas más nítidas */
-    transition: all 0.35s ease; /* Transición suave */
+    border-radius: 8px;
+    transition: all 0.35s ease;
 }
 
 #go-ar-button:hover {
-    transform: translateY(-3px); /* Efecto de flotación más ligero */
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4); /* Sombra más profunda */
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
 }

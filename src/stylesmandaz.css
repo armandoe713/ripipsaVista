@@ -9,12 +9,12 @@ body, * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(145deg, #285ba7, #214a88); /* Fondo azul con gradiente */
+    background: linear-gradient(145deg, #285ba7, #214a88);
     color: white;
     padding: 10px -10px 10px 10px;
     font-weight: bold;
 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -27,12 +27,12 @@ body, * {
     height: 60px;
     margin-right: 1rem;
     margin-left: 7rem;
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .brand-title {
-    font-size: 1.8rem; /* Aumentar el tamaño del texto */
+    font-size: 1.8rem;
     margin: 0;
     font-weight: bold;
 }
@@ -53,30 +53,30 @@ body, * {
 .navbar-links li a {
     text-decoration: none;
     margin-right: 30px;
-    color: white; /* Texto blanco */
+    color: white;
     padding: 30px 30px 30px 30px;
-    display: flex; /* Cambiar a flex */
-    align-items: center; /* Centrar el contenido verticalmente */
-    justify-content: center; /* Centrar el contenido horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    transition: background-color 0.3s ease; /* Transición suave */
+    transition: background-color 0.3s ease;
 }
 
 .navbar-links-button {
     margin: 10px;
-    border-radius: 8px;/* Ocultar el botón en pantallas grandes */
+    border-radius: 8px;
 }
 
 .navbar-links li a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco translúcido en hover */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
 }
 
 /* HOMEPAGE */
 
 body {
-    background-color: #E6F7FF; /* Fondo claro similar a las demás páginas */
+    background-color: #E6F7FF;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -101,43 +101,43 @@ body {
 
 .left-content {
     margin-top: 60px;
-    margin-left: 50px; /* Aumenta el margen izquierdo para desplazar hacia la derecha */
+    margin-left: 50px;
 }
 
 .left-content h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem; /* Aumenta el tamaño del título */
-    color: #003366; /* Color azul oscuro */
+    font-size: 3rem;
+    color: #003366;
 }
 
 .left-content p {
     margin-top: 10px;
-    font-size: 1.3rem; /* Ajustar el tamaño del texto */
+    font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
-    color: #285ba7; /* Color azul */
+    color: #285ba7;
 }
 
 .small-logo {
     height: auto;
-    margin-top: 20px; /* Añadir margen superior */
+    margin-top: 20px;
 }
 
 .custom-btn {
     display: inline-block;
-    background: linear-gradient(145deg, #497faf, #193d70); /* Similar a los otros botones */
-    color: #FFF; /* Texto blanco */
+    background: linear-gradient(145deg, #497faf, #193d70);
+    color: #FFF;
     text-decoration: none;
     font-size: 1.3rem;
     margin-top: 30px;
     margin-bottom: 60px;
-    border-radius: 8px; /* Bordes más definidos */
-    padding: 15px 25px; /* Ajustar el padding */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
-    transition: all 0.3s ease; /* Transición suave */
+    border-radius: 8px;
+    padding: 15px 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
 
 .custom-btn:hover {
-    background: linear-gradient(145deg, #285ba7, #214a88); /* Cambiar el gradiente en hover */
-    transform: translateY(-3px); /* Efecto de flotación */
+    background: linear-gradient(145deg, #285ba7, #214a88);
+    transform: translateY(-3px);
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0)
 }

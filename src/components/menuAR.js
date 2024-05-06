@@ -1,29 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {useState} from 'react';
-import './style.css';
+import '../style.css';
 import {getEscenaObjetos,
     createEscenaObjeto,
     updateEscenaObjeto,
     deleteEscenaObjeto,
     getUrlPorId,
-    getEscenaObjetosPorEscenaId} from "./components/api";
+    getEscenaObjetosPorEscenaId} from "./api";
 
 
 //importar todas las imagenes
-import cajonImage from './images/cajon.png';
-import canaleta1Image from './images/canaleta1.png';
-import canaleta2Image from './images/canaleta2.png';
-import endcapImage from './images/endcap.png';
-import levelingImage from './images/leveling.png';
-import mdfImage from './images/mdf.png';
-import mesaImage from './images/mesa.png';
-import mesaTrabajoImage from './images/mesa de trabajo1.png';
-import panelCajonImage from './images/panelcajon.png';
-import pieza1Image from './images/pieza1.png';
-import portamonitorImage from './images/portamonitor.png';
-import portascanerImage from './images/portascaner.png';
-import tapeteImage from './images/tapete.png';
+import cajonImage from '../images/cajon.png';
+import canaleta1Image from '../images/canaleta1.png';
+import canaleta2Image from '../images/canaleta2.png';
+import endcapImage from '../images/endcap.png';
+import levelingImage from '../images/leveling.png';
+import mdfImage from '../images/mdf.png';
+import mesaImage from '../images/mesa.png';
+import mesaTrabajoImage from '../images/mesa de trabajo1.png';
+import panelCajonImage from '../images/panelcajon.png';
+import pieza1Image from '../images/pieza1.png';
+import portamonitorImage from '../images/portamonitor.png';
+import portascanerImage from '../images/portascaner.png';
+import tapeteImage from '../images/tapete.png';
 
 const objectsData = [
     {id: 0, image: cajonImage, title: 'Cajon',},
@@ -155,8 +155,8 @@ const htmlContentGenerator = (objarray) => {
               </a-assets>
               <a-entity>
                   <a-camera id="camera" look-controls></a-camera>
-                  <a-entity sphere-collider="objects: a-obj-model" super-hands hand-controls="hand: left"></a-entity>
-                  <a-entity sphere-collider="objects: a-obj-model" super-hands hand-controls="hand: right"></a-entity>
+                  <a-entity oculus-touch-controls="hand: left" sphere-collider="objects: a-obj-model" super-hands></a-entity>
+                  <a-entity oculus-touch-controls="hand: right" sphere-collider="objects: a-obj-model" super-hands></a-entity>
               </a-entity>
               ${models}
           </a-scene>

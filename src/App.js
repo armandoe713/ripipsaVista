@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import {ARpage} from "./menuAR";
+import {ARpage} from "./components/menuAR";
 import {useState} from "react";
 import "./style.css"
 
@@ -12,7 +12,7 @@ import "./style.css"
 function App() {
     return (
         <Router>
-            <Navbar />
+        <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Home" element={<Home />} />
